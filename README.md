@@ -4,7 +4,7 @@
 
 ### Choose a Domain. Discover What to Build.
 
-**A conversational AI tool that turns any technical domain into best project ideas — each with a full step-by-step build guide.**
+**Don't struggle finding "what to build today?". Just type what domain you're interested in get project ideas and how to build them.**
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-1F3D2B?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-C28A2C?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
