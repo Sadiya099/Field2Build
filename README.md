@@ -50,7 +50,7 @@ Every project ships with a complete roadmap:
 
 ---
 
-## Run it locally(for free and offline)
+## Run it locally(for free and offline use)
 
 ```bash
 git clone https://github.com/Sadiya099/field2build.git
