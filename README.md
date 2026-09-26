@@ -19,35 +19,41 @@
 
 **Field2Build** is a conversational project-discovery engine for students, self-learners, and early-career engineers.
 
-You type a domain — *artificial intelligence*, *cyber security*, *electronics*, *agriculture*, *finance* — and Field2Build instantly generates **nine unique project blueprints** across three difficulty tiers:
+You type a domain — *artificial intelligence*, *cyber security*, *electronics*, *agriculture*, *finance*, *etc..* — and Field2Build instantly generates **Get as many project ideas as you want — for any technical domain. Every time you ask, you get **9 brand-new ideas**. No repeats. Never runs out.** across three difficulty tiers:
 
 - 🟢 **3 Beginner projects**
 - 🟡 **3 Intermediate projects**
 - 🔴 **3 Advanced projects**
 
-Every blueprint is **resume-grade** and ships with a **step-by-step build guide** covering:
+## What it does
 
-1. **Setup & Data Preparation** — workspace, dataset, cleaning, exploration, splitting
-2. **Core Engine** — baseline, model, evaluation, saving artifacts
-3. **Interface, Deployment & Portfolio** — UI, visualizations, monitoring, deployment, README
+- **Type `hi`** → unlocks the workflow
+- **Type any domain** → `electronics`, `cyber security`, `finance`, `ai`, `ml`
+- **Typos get corrected** → `ciber` becomes "Cyber Security" after confirmation
+- **Get 9 project cards** → grouped by difficulty tier
+- **Click any card** → full step-by-step build guide appears in chat
+- **Two buttons at the end** → Continue in this domain, or Shift to another
+- **Type `new`** → shuffle the batch for 9 fresh ideas
 
-The result: you know **exactly what to build, in what order, with what tools**.
+## What's inside a build guide
+
+Every project ships with a complete roadmap:
+
+- **Recommended tech stack** for that domain
+- **Phase 1 — Setup & Data Preparation** (Step 1.1, 1.2, 1.3 …)
+- **Phase 2 — Core Engine** (Step 2.1, 2.2, …)
+- **Phase 3 — Interface, Deployment & Portfolio** (Step 3.1, 3.2, …)
+
+### 🔗 **[🚀 Try it live →](https://field2build-8rzjv4wfrfcsr5ddzwedfp.streamlit.app/)**
+
+![demo](assets/demo.gif)
 
 ---
 
-## ✨ Features
+## Run it locally
 
-| Feature | Description |
-|---|---|
-| 🎯 **Domain-driven generation** | 90+ known domains mapped to dedicated concept pools |
-| 🧠 **Smart typo correction** | Levenshtein-distance engine catches typos like `ciber` → *Cyber Security*, `agti` → *Agritech*, `Aritifical inter` → *Artificial Intelligence* |
-| 📊 **3×3 difficulty matrix** | 3 Beginner + 3 Intermediate + 3 Advanced per batch |
-| 🔁 **Non-repeating titles** | Session-wide registry guarantees no duplicate project titles |
-| 📐 **Step-by-step build guides** | Numbered Step X.Y actions per phase, tuned to project type and stack |
-| 🎨 **Editorial UI** | Warm paper aesthetic, serif headlines, terracotta accents |
-| 🖱️ **Clickable blueprint cards** | Click any project card to open its full build guide |
-| 🔄 **Instant shuffle** | Type `new` / `different` / `more` to regenerate all 9 |
-| 💬 **Chat-native UX** | Locked initial state, greeting gate, playful warnings — behaves like a real assistant |
-| 🛠️ **Zero external APIs** | Runs entirely offline — no OpenAI, no Anthropic, no API keys needed |
-
-
+```bash
+git clone https://github.com/Sadiya099/field2build.git
+cd field2build
+pip install streamlit
+streamlit run app.py
