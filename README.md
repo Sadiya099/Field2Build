@@ -26,7 +26,7 @@ You type a domain — *artificial intelligence*, *cyber security*, *electronics*
 ## What it does
 
 - **Type `hi`** → unlocks the workflow
-- **Type any domain** → `electronics`, `cyber security`, `finance`, `ai`, `ml`
+- **Type any domain** → `electronics`, `cyber security`, `finance`, `ai`, `ml`,`etc..`
 - **Typos get corrected** → `ciber` becomes "Cyber Security" after confirmation
 - **Get 9 project cards** → grouped by difficulty tier
 - **Click any card** → full step-by-step build guide appears in chat
