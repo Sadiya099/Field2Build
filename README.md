@@ -44,6 +44,8 @@ Every project ships with a complete roadmap:
 - **Phase 2 — Core Engine** (Step 2.1, 2.2, …)
 - **Phase 3 — Interface, Deployment & Portfolio** (Step 3.1, 3.2, …)
 
+### Click below for live demo👇
+
 ### 🔗 **[🚀 Try it live →](https://field2build-8rzjv4wfrfcsr5ddzwedfp.streamlit.app/)**
 
 ![demo](assets/demo.gif)
