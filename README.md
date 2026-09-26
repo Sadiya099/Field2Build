@@ -8,8 +8,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-1F3D2B?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.30%2B-C28A2C?style=flat-square&logo=streamlit&logoColor=white)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/License-MIT-1F3D2B?style=flat-square)](#-license)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-C28A2C?style=flat-square)](#-contributing)
 
 </div>
 
